@@ -1,0 +1,167 @@
+/* 
+
+.product-page {
+    padding: 20px;
+}
+
+.product-table {
+    width: 100%;
+}
+
+.product-cell {
+    width: 20%;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.compressed-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.btn {
+    margin-right: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.product-img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+
+.compressed-img {
+    width: 200px; 
+    height: 200px;
+}
+
+.product-cell {
+    transition: transform 0.3s ease; 
+}
+
+.product-cell:hover {
+    transform: scale(1.1); 
+}
+.center-text {
+    text-align: center;
+}
+.link-style {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.link-style:hover {
+    text-decoration: underline;
+    color: blue;
+} */
+.product-page {
+    padding: 20px;
+    background-color: #f9f9f9; /* Set a light background color */
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 20px; /* Add some space below the table */
+}
+
+.product-cell {
+    width: 33.33%;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.button {
+    background: linear-gradient(to bottom, #4CAF50 0%, #45a049 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #45a049 0%, #4CAF50 100%);
+    transform: translateY(-2px); /* Add a slight lift on hover */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.link-style {
+    text-decoration: none;
+    color: #007bff; /* Set link color */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.link-style:hover {
+    color: #0056b3; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
